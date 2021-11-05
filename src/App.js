@@ -1,9 +1,21 @@
 import React from 'react';
-import PlayPage from './pages/play/index'
+import Navbar from './components/navbar/Navbar';
+import Wrapper from './components/wrapper/Wrapper';
+import {
+  BrowserRouter as Router,
+  Switch,
+} from "react-router-dom";
 
 function App() {
   return (
-    <PlayPage></PlayPage>
+    <div>
+      <Navbar/>
+      <Router>
+          <Switch>
+            <Wrapper/>
+          </Switch>
+      </Router>
+    </div>
   );
 }
 

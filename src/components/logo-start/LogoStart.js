@@ -8,7 +8,7 @@ const LogoStart = () => {
     <div className="">
       <div className="Start-logo flex mx-auto">
         <div className="logo-image mx-auto">
-          <img src={Logo}></img>
+          <img src={Logo} alt="logo here"></img>
         </div>
       </div>
     </div>
