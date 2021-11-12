@@ -16,9 +16,9 @@ const Navbar = () => {
           <VscThreeBars/>
         </button>
       </div>
-      <div className={`nav-wrapper fixed h-screen w-screen md:w-52 flex flex-col justify-between text-center bg-navbar md:visible z-50 ${(isOpen) ? ('open') : ('close invisible')}`}>
+      <div className={`nav-wrapper fixed h-screen w-screen md:w-52 flex flex-col justify-between text-center bg-navbar md:visible z-50 ${(isOpen) ? ('open animate__animated animate__fadeInLeft animate__faster') : ('close invisible')}`}>
         <div className="nav flex w-full fixed justify-end p-5 text-light text-4xl md:hidden">
-        <button onClick={(e) => setIsOpen(false)} className="nav-btn cursor-pointer bg-black-40 p-2 ">
+        <button onClick={(e) => setIsOpen(false)} className="nav-btn cursor-pointer bg-black-40 p-2">
           <VscChromeClose/>
         </button>
         </div>
