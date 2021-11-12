@@ -1,18 +1,19 @@
 import React from 'react';
-import Navbar from './components/navbar/Navbar';
 import Wrapper from './components/wrapper/Wrapper';
+import PlayPage from './pages/play/index'
 import {
   BrowserRouter as Router,
   Switch,
+  Route
 } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Navbar/>
       <Router>
           <Switch>
-            <Wrapper/>
+            <Route path="/" exact component={PlayPage}/>
+            <Wrapper></Wrapper>
           </Switch>
       </Router>
     </div>

@@ -25,22 +25,24 @@ const Navbar = () => {
         <div className="nav-brand bg-logo py-5">
           <a href="/home">
             <img className="mx-auto" alt="logo-area" style={{ maxWidth: "150px" }} src={Logo}></img>
-            <p className="text-4xl text-light font-bold">PhL</p>
           </a>
         </div>
         <div className="nav-container">
           <ul className="nav cursor-pointer text-center">
             <li className="nav-items py-3 text-light hover:text-primary border-t border-b border-gray-50 transition ease-in duration-300">
-              <a href="/about" className="nav-link">About</a>
+              <a href="/about" className="nav-link">Sobre</a>
             </li>
             <li className="nav-items py-3 text-light hover:text-primary border-b border-gray-50 transition ease-in duration-300">
-              <a href="/skills" className="nav-link">My Skills</a>
+              <a href="/skills" className="nav-link">Habilidades</a>
             </li>
             <li className="nav-items py-3 text-light hover:text-primary border-b border-gray-50 transition ease-in duration-300">
-              <a href="/portfolio" className="nav-link">Projects</a>
+              <a href="/portfolio" className="nav-link">Projetos</a>
             </li>
             <li className="nav-items py-3 text-light hover:text-primary border-b border-gray-50 transition ease-in duration-300">
-              <a href="/contact" className="nav-link w-full">Contact</a>
+              <a href="/resume" className="nav-link w-full">Curriculo</a>
+            </li>
+            <li className="nav-items py-3 text-light hover:text-primary border-b border-gray-50 transition ease-in duration-300">
+              <a href="/contact" className="nav-link w-full">Contato</a>
             </li>
 
           </ul>
