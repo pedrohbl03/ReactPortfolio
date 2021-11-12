@@ -16,7 +16,7 @@ const About = () => {
             <p className="text-white text-lg">Acho que coloquei bastante coisa por aqui, mas se você quiser saber mais ou quiser bater um papo comigo, não exite em me chamar, você pode encontrar informações de contato <a className="text-primary" href='/contato'> aqui </a> ou em algum icone da navbar, abraço.</p>
           </div>
           <div className="flex items-center max-w-2xl mx-auto py-5 animate__animated animate__backInUp">
-            <img className="max-w-lg" src={Profile} alt="my profile image"></img>
+            <img className="max-w-lg" src={Profile} alt="my profile"></img>
           </div>
       </div>
     </section>
