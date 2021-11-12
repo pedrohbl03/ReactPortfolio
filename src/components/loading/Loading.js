@@ -9,7 +9,7 @@ const Loading = (props) => {
     <div className="flex justify-center items-center h-screen animate__animated animate__backInLeft">
       <div className="loading-container">
         <div className="brand-logo">
-          <img className="animate-jump mx-auto" src={Logo} style={{ maxWidth: "100px" }}/>
+          <img className="animate-jump mx-auto" src={Logo} alt="logo in loading" style={{ maxWidth: "100px" }}/>
         </div>
         <p className="font-bold text-light text-center text-xs py-3">Carregando um checkpoint ...</p>
         <LoadingProgress/>
